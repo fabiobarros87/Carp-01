@@ -22,7 +22,7 @@ iface ens32 inet static
 # UCARP
         ucarp-vid 1
         ucarp-vip 192.168.1.100
-        ucarp-password passwordunico
+        ucarp-password senha1
 
 iface ens32:ucarp inet static
         address 192.168.1.100
@@ -51,7 +51,7 @@ iface ens32 inet static
 # UCARP
         ucarp-vid 2
         ucarp-vip 192.168.1.100
-        ucarp-password passworddiferente
+        ucarp-password senhadiferente
 
 iface ens32:ucarp inet static
         address 192.168.1.100
